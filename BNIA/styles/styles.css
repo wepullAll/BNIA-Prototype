@@ -1,0 +1,36 @@
+/* Custom CSS File */
+
+/* Colors from Logo:
+*  Orange: rgba(242, 98, 35, 1)
+*  Green: rbga(177, 206, 57, 1)
+*  Gray: rgba(168, 169, 173, 1)
+*  Blue: rgba(0, 125, 182, 1)
+*/
+
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.blue{
+	color: rgba(0, 125, 182, 1);
+}
+.orange{
+	color: rgba(242, 98, 35, 1);
+}
+.green{
+	color: rgba(177, 206, 57, 1);
+}
+.gray{
+	color: rgba(168, 169, 173, 1);
+}
+.btn-green{
+	background-color: rgba(177, 206, 57, 1);
+	color: white;
+}
+.btn-blue{
+	background-color: rgba(0, 125, 182, 1);
+	color: white;
+}
+.btn-blue:hover{
+	background-color: rgba(0, 115, 168,1);
+}
