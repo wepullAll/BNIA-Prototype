@@ -34,3 +34,48 @@ html{
 .btn-blue:hover{
 	background-color: rgba(0, 115, 168,1);
 }
+
+/* NAVIGATION STYLES */
+.fa-bars{
+	color: black;
+}
+
+#custom-pill li {
+	width: 25%;
+	text-align: center;
+}
+
+.nav-pills .nav-link a {
+	color: rgba(0, 125, 182, 1);
+}
+
+a.nav-link.active:hover {
+	color: white;
+}
+
+/* DATA PAGE STYLES */
+#chart{
+	display: block;
+}
+#trends{
+	display: none;
+}
+#data{
+	display: none;
+}
+#map{
+	display: none;
+}
+
+.tan-body{
+	background-color: rgba(232, 228, 213, 1);
+}
+
+.btn-custom{
+	background-color: rgba(242, 98, 35, 1);
+	color: white;
+}
+.btn-custom:hover{
+	background-color: rgba(212, 76, 17, 1);
+	color: white;
+}
