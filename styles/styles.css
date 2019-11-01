@@ -79,3 +79,42 @@ a.nav-link.active:hover {
 	background-color: rgba(212, 76, 17, 1);
 	color: white;
 }
+
+/* MORE INFO QUESTION MARK STYLES */
+.fa-question-circle {
+	color: rgba(0, 125, 182, 1);
+}
+.fa-question-circle:hover {
+	color: rgba(0, 115, 168,1);
+	cursor: pointer; 
+}
+.fa-times {
+	color: gray;
+}
+.fa-times:hover {
+	cursor: pointer; 
+}
+
+#vital {
+	background-color: white;
+	position: relative;
+	top: -700px;
+	transition: .5s;
+}
+
+/* SCROLLING MENU CSS */
+div.scrollmenu {
+	overflow: auto;
+	white-space: nowrap;
+  }
+  
+  div.scrollmenu li {
+	display: inline-block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+  }
+  
+  div.scrollmenu li:hover {
+	background-color: #777;
+  }
